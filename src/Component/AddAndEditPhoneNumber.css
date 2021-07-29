@@ -1,0 +1,20 @@
+.add-edit-container{
+    border: 1px solid black;
+    padding: 20px;
+    margin: 1%;
+    font-size: large;
+}
+
+.add-edit-container .individual-row{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.closeButton{
+    float: right;
+}
+
+.heading{
+    background-color: darkblue;
+    color: white;
+}
