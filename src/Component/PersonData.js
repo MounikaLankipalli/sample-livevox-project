@@ -60,7 +60,7 @@ const PersonData = () => {
     }
 
     return (
-        <div className="add-edit-container">
+        <div className="add-container">
             <Modal
                 title="Phone Number"
                 centered
@@ -74,7 +74,7 @@ const PersonData = () => {
 
             <p className="row individual-row heading">{'Phone Numbers'}</p>
 
-            <div className="row individual-row">
+            <div className="row individual-row-data">
                 <span className="col-lg-1"><Button onClick={() => onClickGeneralBtnHandler()}>{'General'}</Button></span>
                 <span className="col-lg-1"><Button>{'Change History'}</Button></span>
             </div>

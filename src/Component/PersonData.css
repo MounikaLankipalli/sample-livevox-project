@@ -1,4 +1,4 @@
-.add-edit-container{
+.add-container{
     border: 2px solid black;
 }
 
@@ -31,4 +31,9 @@
 
 .ant-table-pagination.ant-pagination {
     display: none;
+}
+
+.individual-row-data .ant-btn:hover, .ant-btn:focus {
+    color: white;
+    background-color: darkblue;
 }
